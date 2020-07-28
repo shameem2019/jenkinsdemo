@@ -19,9 +19,9 @@ node {
 	   sh "${mvn} clean package"
    }
    stage('Unit Test') {
-                           steps {
+                          
                                 echo "Running the unit test..."
-                           }
+                          
    }
    
    stage('deploy-dev'){
