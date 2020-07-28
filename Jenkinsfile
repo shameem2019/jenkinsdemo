@@ -19,12 +19,12 @@ node {
 	   sh "${mvn} clean package deploy"
    }
    
-   stage('deploy-dev'){
+   //stage('deploy-dev'){
        
-          echo "Running the integration test..."
+        //  echo "Running the integration test..."
          
 	  
-   }
+  // }
   
 }
 
