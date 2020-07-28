@@ -3,8 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
-	<packaging>war</packaging>
-	<version>0.0.7-SNAPSHOT</version>
 	<name>jenkinsdemo</name>
 	<url>http://maven.apache.org</url>
 
