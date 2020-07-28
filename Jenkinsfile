@@ -7,7 +7,7 @@ node {
     // Clone repo
 	git branch: 'master', 
 	//credentialsId: 'github', 
-	url: 'https://github.com/shameem2019/myweb'
+	url: 'https://github.com/shameem2019/jenkinsdemo'
    
    }
    
