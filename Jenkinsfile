@@ -20,9 +20,9 @@ node {
    }
    
    stage('deploy-dev'){
-       steps {
-                echo "Running the integration test..."
-          }
+       
+          echo "Running the integration test..."
+         
 	  
    }
   
