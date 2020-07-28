@@ -16,15 +16,15 @@ node {
    stage('Mvn Package'){
 	   // Build using maven
 	   
-	   sh "${mvn} clean package deploy"
+	   sh "${mvn} clean package"
    }
    
-   //stage('deploy-dev'){
+   stage('deploy-dev'){
        
-        //  echo "Running the integration test..."
+          echo "Running the integration test..."
          
 	  
-  // }
+   }
   
 }
 
